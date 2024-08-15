@@ -1,6 +1,7 @@
 package com.company;
 
-public class WindowsDialog extends Dialog {
+//WindowsDialog factory creating a WindowsButton
+public class WindowsDialogFactory extends Dialog {
 
     public Button createButton() {
         return new WindowsButton();

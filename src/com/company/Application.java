@@ -16,10 +16,10 @@ public class Application {
     public void initialize(String buttonType)
     {
         if (buttonType.equalsIgnoreCase("Windows")) {
-            dialog = new WindowsDialog();
+            dialog = new WindowsDialogFactory();
 
         } else if (buttonType.equalsIgnoreCase("Web")) {
-            dialog = new WebDialog();
+            dialog = new WebDialogFactory();
         }
     }
 }

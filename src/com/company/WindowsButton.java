@@ -1,11 +1,12 @@
 package com.company;
 
+
 public class WindowsButton implements Button {
     public void render() {
-        System.out.println("Hello you have press WindowsButton");
+        System.out.println("Welcome to the WindowsButton factory");
     }
 
     public void onClick() {
-        System.out.println("Closing the Dialog Box. Goodbye!");
+        System.out.println("WindowsButton ");
     }
 }

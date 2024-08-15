@@ -1,6 +1,7 @@
 package com.company;
 
-public class WebDialog extends Dialog {
+//WebDialog factory for creating a HMTLButton
+public class WebDialogFactory extends Dialog {
     public Button createButton() {
         return new HTMLButton();
     }
